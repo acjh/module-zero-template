@@ -15,7 +15,6 @@ namespace AbpCompanyName.AbpProjectName.WebSpaAngular
                     .Include("~/fonts/material-icons/materialicons.css", new CssRewriteUrlTransform())
                     .Include("~/lib/bootstrap/dist/css/bootstrap.css", new CssRewriteUrlTransform())
                     .Include("~/lib/toastr/toastr.css", new CssRewriteUrlTransform())
-                    .Include("~/lib/sweetalert/dist/sweetalert.css", new CssRewriteUrlTransform())
                     .Include("~/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css", new CssRewriteUrlTransform())
                     .Include("~/lib/font-awesome/css/font-awesome.css", new CssRewriteUrlTransform())
                     .Include("~/lib/Waves/dist/waves.css", new CssRewriteUrlTransform())
@@ -35,7 +34,7 @@ namespace AbpCompanyName.AbpProjectName.WebSpaAngular
                         "~/lib/jquery-validation/dist/jquery.validate.js",
                         "~/lib/blockUI/jquery.blockUI.js",
                         "~/lib/toastr/toastr.js",
-                        "~/lib/sweetalert/dist/sweetalert-dev.js",
+                        "~/lib/sweetalert/dist/sweetalert.min.js",
                         "~/lib/spin.js/spin.js",
                         "~/lib/spin.js/jquery.spin.js",
                         "~/lib/Waves/dist/waves.js",
@@ -59,7 +58,6 @@ namespace AbpCompanyName.AbpProjectName.WebSpaAngular
                     .Include("~/fonts/material-icons/materialicons.css", new CssRewriteUrlTransform())
                     .Include("~/lib/bootstrap/dist/css/bootstrap.css", new CssRewriteUrlTransform())
                     .Include("~/lib/toastr/toastr.css", new CssRewriteUrlTransform())
-                    .Include("~/lib/sweetalert/dist/sweetalert.css", new CssRewriteUrlTransform())
                     .Include("~/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css", new CssRewriteUrlTransform())
                     .Include("~/lib/font-awesome/css/font-awesome.css", new CssRewriteUrlTransform())
                     .Include("~/lib/Waves/dist/waves.css", new CssRewriteUrlTransform())
@@ -81,7 +79,7 @@ namespace AbpCompanyName.AbpProjectName.WebSpaAngular
                         "~/lib/jquery-validation/dist/jquery.validate.js",
                         "~/lib/blockUI/jquery.blockUI.js",
                         "~/lib/toastr/toastr.js",
-                        "~/lib/sweetalert/dist/sweetalert-dev.js",
+                        "~/lib/sweetalert/dist/sweetalert.min.js",
                         "~/lib/spin.js/spin.js",
                         "~/lib/spin.js/jquery.spin.js",
                         "~/lib/bootstrap-select/dist/js/bootstrap-select.js",
